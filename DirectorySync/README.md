@@ -6,6 +6,7 @@ This Python script was written to automate syncing files and directories between
 *You will need the Windows SDK for the signtool.exe (https://developer.microsoft.com/en-us/windows/downloads/windows-sdk/) recommended to add the path for both Win SDK and pyinstaller to path so you can use the command from anywhere*
 
 Powershell:
+
 1: Export-PfxCertificate -Cert $cert -FilePath "C:\Path-To-Your-Where-You-Store-Your-Certs\SignedByVentura.pfx" -Password (ConvertTo-SecureString -String "PASSWORD" -Force -AsPlainText)
 *Create your own Personal Code Signing Certificate if you package your own exe otherwise Windows will flag is as malware, replace the path and "PASSWORD" with your own path and cert password*
 

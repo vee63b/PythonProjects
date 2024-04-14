@@ -1,0 +1,2 @@
+# DirectorySync
+This Python script was written to create local QR Codes. Will add additional code types as well as more option later down the line. There's one .exe and one .app so this tool can be used on either Windows or Mac. As usual souce code is there to tinker with as well if you want to customize your own.

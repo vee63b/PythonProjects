@@ -1,4 +1,4 @@
-('C:\\Users\\ventura\\Documents\\Coding\\build\\QRCreator\\PYZ-00.pyz',
+('C:\\Users\\ventura\\git\\PythonProjects\\QRCodeCreator\\build\\QRCreator\\PYZ-00.pyz',
  [('PIL',
    'C:\\Users\\ventura\\AppData\\Local\\Packages\\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\\LocalCache\\local-packages\\Python311\\site-packages\\PIL\\__init__.py',
    'PYMODULE'),

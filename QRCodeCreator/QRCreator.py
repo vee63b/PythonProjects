@@ -44,7 +44,6 @@ def generate_qr_code(qr_type):
 
     elif qr_type == "Social Media QR":
         # Construct social media information string
-        # Assuming round and frame options are not applicable for Social Media QR
         qr = qrcode.QRCode(version=1, error_correction=qrcode.constants.ERROR_CORRECT_L, box_size=10, border=4)
         qr.add_data(social_media_info)
         qr.make(fit=True)

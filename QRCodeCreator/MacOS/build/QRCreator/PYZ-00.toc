@@ -1,4 +1,4 @@
-('/Users/venturasran/PY/build/QRCreator/PYZ-00.pyz',
+('/Users/venturasran/Documents/GitHub/PythonProjects/QRCodeCreator/MacOS/build/QRCreator/PYZ-00.pyz',
  [('PIL',
    '/usr/local/lib/python3.11/site-packages/PIL/__init__.py',
    'PYMODULE'),

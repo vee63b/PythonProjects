@@ -14,13 +14,13 @@ Types if import:
 IMPORTANT: Do NOT post this list to the issue-tracker. Use it as a basis for
             tracking down the missing module yourself. Thanks!
 
-missing module named nt - imported by os (delayed, conditional, optional), ntpath (optional), shutil (conditional), importlib._bootstrap_external (conditional), ctypes (delayed, conditional)
+missing module named nt - imported by shutil (conditional), importlib._bootstrap_external (conditional), os (delayed, conditional, optional), ntpath (optional), ctypes (delayed, conditional)
 missing module named 'org.python' - imported by copy (optional), xml.sax (delayed, conditional)
 missing module named org - imported by pickle (optional)
 missing module named winreg - imported by importlib._bootstrap_external (conditional), mimetypes (optional), urllib.request (delayed, conditional, optional), platform (delayed, optional), setuptools.msvc (conditional), distutils._msvccompiler (top-level), distutils.msvc9compiler (top-level), pkg_resources._vendor.platformdirs.windows (delayed, optional), platformdirs.windows (delayed, optional), setuptools._distutils._msvccompiler (top-level), setuptools._distutils.msvc9compiler (top-level), setuptools._distutils.msvccompiler (optional)
 missing module named _frozen_importlib_external - imported by importlib._bootstrap (delayed), importlib (optional), importlib.abc (optional), zipimport (top-level)
 excluded module named _frozen_importlib - imported by importlib (optional), importlib.abc (optional), zipimport (top-level)
-missing module named _winapi - imported by encodings (delayed, conditional, optional), ntpath (optional), subprocess (conditional), mimetypes (optional), multiprocessing.connection (optional), multiprocessing.spawn (delayed, conditional), multiprocessing.reduction (conditional), multiprocessing.shared_memory (conditional), multiprocessing.heap (conditional), multiprocessing.popen_spawn_win32 (top-level), asyncio.windows_events (top-level), asyncio.windows_utils (top-level)
+missing module named _winapi - imported by encodings (delayed, conditional, optional), subprocess (conditional), ntpath (optional), mimetypes (optional), multiprocessing.connection (optional), multiprocessing.spawn (delayed, conditional), multiprocessing.reduction (conditional), multiprocessing.shared_memory (conditional), multiprocessing.heap (conditional), multiprocessing.popen_spawn_win32 (top-level), asyncio.windows_events (top-level), asyncio.windows_utils (top-level)
 missing module named msvcrt - imported by subprocess (optional), getpass (optional), multiprocessing.spawn (delayed, conditional), multiprocessing.popen_spawn_win32 (top-level), asyncio.windows_events (top-level), asyncio.windows_utils (top-level), png (delayed, conditional)
 missing module named vms_lib - imported by platform (delayed, optional)
 missing module named 'java.lang' - imported by platform (delayed, optional), xml.sax._exceptions (conditional)
@@ -66,6 +66,7 @@ missing module named 'setuptools.extern.packaging.specifiers' - imported by setu
 missing module named 'setuptools.extern.packaging.markers' - imported by setuptools._core_metadata (top-level), setuptools.dist (top-level), setuptools.config.setupcfg (top-level)
 missing module named 'setuptools.extern.ordered_set' - imported by setuptools.dist (top-level)
 missing module named pyimod02_importers - imported by /usr/local/lib/python3.11/site-packages/PyInstaller/hooks/rthooks/pyi_rth_pkgres.py (top-level), /usr/local/lib/python3.11/site-packages/PyInstaller/hooks/rthooks/pyi_rth_pkgutil.py (top-level)
+missing module named PIL._imagingagg - imported by PIL (delayed, conditional, optional), PIL.ImageDraw (delayed, conditional, optional)
 missing module named olefile - imported by PIL.FpxImagePlugin (top-level), PIL.MicImagePlugin (top-level)
 missing module named _version_meson - imported by numpy.version (optional)
 missing module named _dummy_thread - imported by cffi.lock (conditional, optional), numpy.core.arrayprint (optional)
@@ -187,6 +188,5 @@ missing module named copy_reg - imported by cPickle (top-level), cStringIO (top-
 missing module named cPickle - imported by pycparser.ply.yacc (delayed, optional)
 missing module named cffi._pycparser - imported by cffi (optional), cffi.cparser (optional)
 missing module named defusedxml - imported by PIL.Image (optional)
-missing module named PIL._imagingagg - imported by PIL (delayed, conditional, optional), PIL.ImageDraw (delayed, conditional, optional)
 missing module named ImageDraw - imported by qrcode.compat.pil (optional)
 missing module named Image - imported by qrcode.compat.pil (optional)
